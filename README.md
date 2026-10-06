@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi, I'm Menaka
 
-<!--
-**menakavemula64-hue/menakavemula64-hue** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Featured Project: Income Growth Forecast
 
-Here are some ideas to get you started:
+I built a browser-based income analytics app that turns a spreadsheet of earnings into a clear history, growth summary, and trend-based forecast.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Open the live app](https://menakavemula64-hue.github.io/income-growth-forecast/) · [Read the code, setup guide, and forecasting theory](https://github.com/menakavemula64-hue/income-growth-forecast)
+
+[![Income Growth Forecast walkthrough](https://raw.githubusercontent.com/menakavemula64-hue/income-growth-forecast/main/assets/income-growth-forecast-promo.gif)](https://menakavemula64-hue.github.io/income-growth-forecast/)
+
+| Upload income history | Review the dashboard | Explore a forecast |
+| --- | --- | --- |
+| ![Spreadsheet upload preview](https://raw.githubusercontent.com/menakavemula64-hue/income-growth-forecast/main/assets/income-upload-preview.png) | ![Income dashboard preview](https://raw.githubusercontent.com/menakavemula64-hue/income-growth-forecast/main/assets/income-dashboard-preview.png) | ![Forecast preview](https://raw.githubusercontent.com/menakavemula64-hue/income-growth-forecast/main/assets/income-forecast-preview.png) |
+
+The app accepts Excel or CSV files, reports income totals and growth, and estimates future earnings with a linear trend and R-squared fit score. Spreadsheet parsing runs in the browser. Forecasts are estimates, not guarantees; the images use fictional sample data.
+
+**Tech:** HTML, Tailwind CSS, JavaScript, Chart.js, SheetJS
